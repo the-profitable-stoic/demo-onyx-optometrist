@@ -1,0 +1,508 @@
+{
+  "business": {
+    "name": "Onyx Optometrist",
+    "phone": "555-opt-r93",
+    "category": "optometrist",
+    "city": "Richmond",
+    "state": "VA"
+  },
+  "design": {
+    "preset": {
+      "id": "optometrist-dark-premium",
+      "categoryGroup": "optometrist",
+      "name": "Dark Premium",
+      "recipeFile": "optometrist/dark-premium.astro",
+      "colors": {
+        "primary": "#818CF8",
+        "primaryDark": "#6770c6",
+        "primaryLight": "#cdd1fc",
+        "secondary": "#2A2A2A",
+        "accent": "#949df9",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "optometrist/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Clear Vision for Richmond",
+      "heroSubline": "Onyx Optometrist provides personalized eye care in Richmond, VA. Our experienced team helps you see your best in every season.",
+      "aboutTitle": "Your Trusted Local Optometrist",
+      "aboutText": [
+        "Founded in 2012, Onyx Optometrist has been serving Richmond families with comprehensive eye care services. Dr. Sarah Chen established our practice with a commitment to thorough examinations and lasting patient relationships.",
+        "We take time to understand each patient's unique vision needs, whether you're a VCU student needing contact lenses or a Church Hill resident requiring progressive lenses for historic home restoration work.",
+        "As active members of the Richmond community, we sponsor youth sports vision screenings and participate in Carytown's annual Health Fair to promote eye health awareness."
+      ],
+      "valueProps": [
+        {
+          "title": "Same-Day Emergency Care",
+          "description": "We accommodate urgent eye care needs for Richmond residents dealing with seasonal allergies or unexpected injuries."
+        },
+        {
+          "title": "Advanced Diagnostic Tech",
+          "description": "Our retinal imaging detects early signs of conditions prevalent in Virginia's humid climate."
+        },
+        {
+          "title": "Frame Styling Expertise",
+          "description": "We help you choose durable frames that complement Richmond's historic architecture and modern developments."
+        },
+        {
+          "title": "Insurance Guidance",
+          "description": "Our team navigates Virginia's vision coverage options to maximize your benefits."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Eye Exam Today",
+      "ctaSubline": "Experience personalized care from Richmond's trusted optometry team."
+    },
+    "services": [
+      {
+        "slug": "comprehensive-eye-exams",
+        "name": "Comprehensive Eye Exams",
+        "shortDescription": "Thorough vision assessments tailored to Richmond's diverse population.",
+        "description": "Our 60-minute comprehensive exams go beyond standard vision tests to evaluate eye health in Richmond's unique environment. We check for humidity-related dry eye symptoms common in Virginia summers and screen for UV damage from outdoor activities along the James River.\n\nFor older patients in historic Fan District homes, we pay special attention to lighting needs for reading original architectural details. Younger patients from Scott's Addition tech firms receive specialized computer vision assessments. Each exam includes personalized recommendations based on your lifestyle and Richmond's specific conditions.",
+        "process": [
+          "Step 1: Detailed medical history review including any Virginia-specific allergies",
+          "Step 2: Refraction testing with consideration for local driving conditions",
+          "Step 3: Ocular health evaluation with retinal imaging technology",
+          "Step 4: Personalized vision correction plan discussion"
+        ],
+        "benefits": [
+          "Early detection of Virginia-prevalent eye conditions",
+          "Customized solutions for Richmond's climate challenges",
+          "Thorough documentation for DMV vision requirements",
+          "Lifestyle-specific prescription recommendations"
+        ],
+        "faq": [
+          {
+            "question": "How often should Richmond residents get eye exams?",
+            "answer": "We recommend annual exams due to our region's high pollen counts and humidity fluctuations that affect eye health. Computer users in Richmond's growing tech sector may need more frequent checkups."
+          },
+          {
+            "question": "Do you test for glaucoma common in African American patients?",
+            "answer": "Yes, we perform comprehensive glaucoma screening important for Richmond's diverse population, including specialized testing for higher-risk groups."
+          }
+        ]
+      },
+      {
+        "slug": "contact-lens-fitting",
+        "name": "Contact Lens Fitting",
+        "shortDescription": "Expert fittings for Richmond's active lifestyles and seasonal conditions.",
+        "description": "Finding comfortable contact lenses in Richmond's humid summers and dry winters requires specialized expertise. Our fitting process considers factors like pollen levels affecting Carytown joggers and air quality for downtown commuters.\n\nWe offer trial lenses from leading manufacturers to ensure proper fit before purchase. Our team educates patients on proper lens care to prevent infections common in Virginia's climate. Special options include:\n\n- Daily disposables ideal for VCU students\n- Toric lenses for patients with Richmond's common allergies\n- Multifocal contacts for mature patients in Church Hill's historic homes",
+        "process": [
+          "Step 1: Corneal measurement with digital mapping technology",
+          "Step 2: Lifestyle assessment including Richmond-specific factors",
+          "Step 3: Trial lens fitting and comfort evaluation",
+          "Step 4: Follow-up assessment after real-world wear"
+        ],
+        "benefits": [
+          "Reduced irritation from Virginia's pollen seasons",
+          "Customized solutions for active lifestyles",
+          "Proper fit for all-day comfort",
+          "Education on humid climate lens care"
+        ],
+        "faq": [
+          {
+            "question": "Can I swim in the James River with contacts?",
+            "answer": "We advise against it due to bacteria risks, but can recommend daily disposables with proper precautions for Richmond's water activities."
+          }
+        ]
+      },
+      {
+        "slug": "dry-eye-treatment",
+        "name": "Dry Eye Treatment",
+        "shortDescription": "Specialized relief for Richmond's climate-induced dry eye symptoms.",
+        "description": "Richmond's combination of summer humidity and winter indoor heating creates perfect conditions for chronic dry eye. Our treatment plans address Virginia-specific triggers including:\n\n- Pollen from the James River basin\n- Air conditioning in Shockoe Bottom offices\n- Wood stove heat in rural Hanover County homes\n\nWe offer in-office procedures like gland expression and prescribe customized home care regimens. Our optometrists stay current on the latest dry eye research presented at Virginia Commonwealth University's medical conferences.",
+        "process": [
+          "Step 1: Tear film evaluation with specialized imaging",
+          "Step 2: Identification of Richmond-specific contributing factors",
+          "Step 3: Personalized treatment plan development",
+          "Step 4: Ongoing symptom monitoring"
+        ],
+        "benefits": [
+          "Relief from seasonal discomfort",
+          "Prevention of long-term damage",
+          "Customized solutions for your environment",
+          "Education on local triggers"
+        ],
+        "faq": [
+          {
+            "question": "Why are my eyes worse when the wind blows off the river?",
+            "answer": "The James River winds carry allergens and dry out eyes. We can recommend protective measures and treatments specifically for this Richmond phenomenon."
+          }
+        ]
+      },
+      {
+        "slug": "pediatric-eye-care",
+        "name": "Pediatric Eye Care",
+        "shortDescription": "Gentle, thorough vision care for Richmond's youngest residents.",
+        "description": "Children's eyes face unique challenges in Richmond's environment - from reading in historic school buildings to outdoor sports in humid conditions. Our pediatric exams detect vision problems that might affect learning in Henrico County schools or performance in Chesterfield youth leagues.\n\nWe use child-friendly techniques to assess:\n\n- Screen time effects for kids in tech-heavy Short Pump families\n- UV protection needs for outdoor activities at Maymont Park\n- Allergy-related eye irritation common in Virginia children\n\nOur office features a kid-friendly waiting area with Richmond-themed activities to make visits comfortable.",
+        "process": [
+          "Step 1: Developmental vision screening",
+          "Step 2: Fun, interactive testing methods",
+          "Step 3: Parent consultation with educational materials",
+          "Step 4: School-specific recommendations"
+        ],
+        "benefits": [
+          "Early detection of learning-related vision issues",
+          "Sports vision safety guidance",
+          "Screen time management advice",
+          "Family-friendly approach"
+        ],
+        "faq": [
+          {
+            "question": "At what age should Richmond children have their first eye exam?",
+            "answer": "We recommend baseline exams by age 3, especially for families with history of vision problems common in our region like allergies or nearsightedness."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-eye-care",
+        "name": "Emergency Eye Care",
+        "shortDescription": "Prompt treatment for urgent eye issues in the Richmond area.",
+        "description": "When eye emergencies happen in Richmond - from gardening accidents in West End homes to sports injuries at The Diamond - we provide same-day care. Our team handles:\n\n- Foreign object removal from DIY projects in older homes\n- Chemical exposures common in local industries\n- UV overexposure at Virginia Beach day trips\n- Allergy flare-ups during high pollen counts\n\nWe maintain relationships with Richmond-area ophthalmologists for cases requiring specialized care. Our emergency protocols follow Virginia's latest treatment guidelines.",
+        "process": [
+          "Step 1: Immediate symptom assessment",
+          "Step 2: Gentle examination with numbing drops if needed",
+          "Step 3: Treatment or stabilization",
+          "Step 4: Follow-up plan creation"
+        ],
+        "benefits": [
+          "Quick relief when you need it most",
+          "Experienced trauma care",
+          "Coordination with local specialists",
+          "Insurance documentation assistance"
+        ],
+        "faq": [
+          {
+            "question": "What constitutes an eye emergency?",
+            "answer": "Sudden vision changes, severe pain, or chemical exposures always warrant immediate care. We advise Richmond patients to call rather than wait with concerning symptoms."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Dry Eye Treatment",
+        "text": "After years of discomfort during Richmond's allergy seasons, Dr. Chen diagnosed my meibomian gland dysfunction. The in-office treatments and home care plan have made gardening in my Church Hill yard enjoyable again. The staff even recommended specific sunglasses for Virginia's bright winters.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Eleanor W.",
+        "rating": 5,
+        "service": "Pediatric Eye Care",
+        "text": "My third grader was struggling in school until Onyx Optometrist discovered her convergence insufficiency. Their child-friendly approach made the exam stress-free, and the vision therapy exercises incorporated VCU basketball themes to keep her engaged. Her grades have improved dramatically.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Devon P.",
+        "rating": 5,
+        "service": "Emergency Eye Care",
+        "text": "When I got sawdust in my eye during a Fan District home renovation, they saw me within an hour. The doctor removed the particle gently and provided detailed instructions for caring for my eye in Richmond's humid recovery conditions. Truly saved my weekend project.",
+        "date": "2024-11-05"
+      },
+      {
+        "name": "Lisa M.",
+        "rating": 5,
+        "service": "Contact Lens Fitting",
+        "text": "As a marathon runner training along the James River, I needed contacts that could handle sweat and pollen. The team at Onyx found lenses that stay comfortable through long runs and educated me on proper cleaning for Virginia's water quality. Game changer for my training.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Rajesh K.",
+        "rating": 5,
+        "service": "Comprehensive Eye Exam",
+        "text": "Moving from New York to Richmond, I didn't realize how much the climate would affect my eyes. The thorough exam caught early signs of dryness, and their recommendations for humidifier settings in my Scotts Addition loft have made all the difference. Appreciate the local expertise.",
+        "date": "2024-08-30"
+      },
+      {
+        "name": "Tasha B.",
+        "rating": 5,
+        "service": "Frame Selection",
+        "text": "The optician helped me choose frames that complement both my face shape and my professional needs at the Virginia Museum of Fine Arts. They considered the lighting in our galleries and selected durable materials that withstand frequent handling during tours. Perfect blend of form and function.",
+        "date": "2024-07-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Richmond Optometrist | Onyx Eye Care Services",
+        "description": "Trusted Richmond optometrist providing comprehensive eye exams, contact lens fittings, and dry eye treatment for Virginia residents."
+      },
+      "about": {
+        "title": "About Our Richmond Optometry Practice",
+        "description": "Learn about Onyx Optometrist's commitment to personalized eye care in Richmond, VA since 2012. Meet our experienced team."
+      },
+      "services": {
+        "title": "Richmond Eye Care Services | Onyx Optometrist",
+        "description": "From pediatric exams to emergency care, Onyx Optometrist offers complete vision services for Richmond families and professionals."
+      },
+      "contact": {
+        "title": "Contact Richmond's Onyx Optometrist",
+        "description": "Schedule an appointment with our Richmond optometry office. Convenient location serving Virginia's capital region."
+      },
+      "reviews": {
+        "title": "Patient Reviews | Onyx Optometrist Richmond",
+        "description": "Read what Richmond patients say about their experiences with Onyx Optometrist's caring, professional eye care services."
+      },
+      "service-areas": {
+        "title": "Richmond VA Eye Doctor Service Areas",
+        "description": "Onyx Optometrist serves Richmond and surrounding Virginia communities with comprehensive vision care and emergency services."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Richmond",
+        "slug": "richmond-va",
+        "state": "VA",
+        "content": "Onyx Optometrist proudly serves the Richmond community with comprehensive eye care services. Whether you need a routine eye exam, contact lens fitting, or treatment for eye conditions, our experienced team is here to help. Richmond residents can trust us for personalized care in a welcoming environment. Our clinic is conveniently located to serve downtown, the Museum District, and surrounding neighborhoods, making it easy to prioritize your eye health.",
+        "localContext": "Richmond, the capital of Virginia, is known for its historic charm, vibrant arts scene, and thriving local businesses.",
+        "nearbyAreas": [
+          "Henrico",
+          "Chesterfield",
+          "Midlothian"
+        ]
+      },
+      {
+        "city": "Henrico",
+        "slug": "henrico-va",
+        "state": "VA",
+        "content": "Residents of Henrico can rely on Onyx Optometrist for top-quality eye care close to home. From pediatric eye exams to managing age-related vision changes, our services cater to all ages. We understand the importance of clear vision for daily life, whether you're commuting on I-64 or enjoying the parks in Short Pump. Schedule an appointment at our Richmond location, just a short drive from Henrico’s bustling neighborhoods.",
+        "localContext": "Henrico is a diverse suburban county with excellent schools, shopping centers, and outdoor recreational spaces.",
+        "nearbyAreas": [
+          "Richmond",
+          "Glen Allen",
+          "Tuckahoe"
+        ]
+      },
+      {
+        "city": "Chesterfield",
+        "slug": "chesterfield-va",
+        "state": "VA",
+        "content": "Onyx Optometrist is committed to serving the Chesterfield community with professional and friendly eye care. Whether you live in Brandermill, Bon Air, or near the Chesterfield Towne Center, we provide convenient access to vision services. Our team stays up-to-date with the latest advancements in optometry to ensure you receive the best care possible. Regular eye exams are essential for maintaining healthy vision, and we're here to make the process seamless.",
+        "localContext": "Chesterfield is a fast-growing county with a mix of suburban neighborhoods, historic sites, and scenic parks.",
+        "nearbyAreas": [
+          "Richmond",
+          "Midlothian",
+          "Colonial Heights"
+        ]
+      },
+      {
+        "city": "Midlothian",
+        "slug": "midlothian-va",
+        "state": "VA",
+        "content": "Midlothian residents trust Onyx Optometrist for their eye care needs, from prescription glasses to advanced diagnostics. Our practice is dedicated to helping you achieve optimal vision, whether you're working in the thriving Midlothian business district or enjoying the Virginia countryside. We offer a wide selection of frames and lenses to suit your style and lifestyle. Visit us for a thorough eye exam and personalized recommendations.",
+        "localContext": "Midlothian is a historic yet modern community with a blend of shopping, dining, and outdoor activities.",
+        "nearbyAreas": [
+          "Chesterfield",
+          "Richmond",
+          "Bon Air"
+        ]
+      },
+      {
+        "city": "Glen Allen",
+        "slug": "glen-allen-va",
+        "state": "VA",
+        "content": "At Onyx Optometrist, we’re proud to serve the Glen Allen area with exceptional eye care services. Whether you need a routine check-up, treatment for dry eyes, or specialty contact lenses, our team is here for you. Glen Allen’s active families and professionals can count on us for convenient and reliable vision care. Our clinic is easily accessible from Short Pump and other nearby neighborhoods.",
+        "localContext": "Glen Allen is a thriving suburb known for its excellent schools, parks, and shopping destinations like Short Pump Town Center.",
+        "nearbyAreas": [
+          "Henrico",
+          "Richmond",
+          "Mechanicsville"
+        ]
+      },
+      {
+        "city": "Mechanicsville",
+        "slug": "mechanicsville-va",
+        "state": "VA",
+        "content": "Onyx Optometrist welcomes Mechanicsville residents for all their eye care needs. Our comprehensive services include eye exams, glaucoma testing, and fitting the latest eyewear trends. Whether you're near Atlee or Cold Harbor, our Richmond location is just a short drive away. We prioritize your eye health and comfort, ensuring every visit is a positive experience.",
+        "localContext": "Mechanicsville is a family-friendly community with a rich Civil War history and a strong sense of local pride.",
+        "nearbyAreas": [
+          "Glen Allen",
+          "Hanover",
+          "Richmond"
+        ]
+      },
+      {
+        "city": "Colonial Heights",
+        "slug": "colonial-heights-va",
+        "state": "VA",
+        "content": "Serving Colonial Heights, Onyx Optometrist provides expert eye care tailored to your unique needs. Our team is dedicated to helping you maintain clear and healthy vision, whether you're exploring Southpark Mall or enjoying the Appomattox River. From children to seniors, we offer eye exams and treatments for every stage of life. Schedule an appointment today and experience our commitment to quality care.",
+        "localContext": "Colonial Heights is a small city with a historic downtown, vibrant shopping areas, and easy access to outdoor recreation.",
+        "nearbyAreas": [
+          "Chesterfield",
+          "Petersburg",
+          "Hopewell"
+        ]
+      },
+      {
+        "city": "Bon Air",
+        "slug": "bon-air-va",
+        "state": "VA",
+        "content": "Onyx Optometrist is proud to serve the Bon Air community with compassionate and professional eye care. Whether you’re in need of a new prescription, eye disease management, or stylish frames, we’ve got you covered. Our convenient location makes it easy for Bon Air residents to prioritize their vision health. Let us help you see your best with personalized care and the latest technology.",
+        "localContext": "Bon Air is a charming suburban neighborhood known for its tree-lined streets, parks, and strong community spirit.",
+        "nearbyAreas": [
+          "Richmond",
+          "Midlothian",
+          "Chesterfield"
+        ]
+      },
+      {
+        "city": "Petersburg",
+        "slug": "petersburg-va",
+        "state": "VA",
+        "content": "Petersburg residents can count on Onyx Optometrist for exceptional eye care services. Our team provides thorough exams, treatment for eye conditions, and a wide selection of eyewear. Located just a short drive from downtown Petersburg, we make it convenient to access quality vision care. Whether you're near Fort Lee or historic Old Towne, we’re here to support your eye health needs.",
+        "localContext": "Petersburg is a historic city with a rich cultural heritage and a growing arts and dining scene.",
+        "nearbyAreas": [
+          "Colonial Heights",
+          "Hopewell",
+          "Chesterfield"
+        ]
+      },
+      {
+        "city": "Tuckahoe",
+        "slug": "tuckahoe-va",
+        "state": "VA",
+        "content": "Onyx Optometrist is honored to serve the Tuckahoe community with top-notch eye care. Our services range from routine vision tests to advanced treatments for eye diseases. Tuckahoe’s families and professionals appreciate our attentive approach and convenient location. Whether you're near Three Chopt Road or the University of Richmond, we’re here to help you maintain clear and healthy vision.",
+        "localContext": "Tuckahoe is an affluent suburban area known for its excellent schools, beautiful homes, and proximity to Richmond.",
+        "nearbyAreas": [
+          "Richmond",
+          "Glen Allen",
+          "Henrico"
+        ]
+      },
+      {
+        "city": "Hanover",
+        "slug": "hanover-va",
+        "state": "VA",
+        "content": "Hanover residents trust Onyx Optometrist for professional and friendly eye care. Our comprehensive services include pediatric optometry, diabetic eye exams, and emergency care. Whether you're near Ashland or Mechanicsville, our practice is easily accessible. We’re committed to helping you achieve your best vision with personalized solutions and the latest technology.",
+        "localContext": "Hanover County is a mix of rural landscapes and suburban communities, offering a peaceful yet convenient lifestyle.",
+        "nearbyAreas": [
+          "Mechanicsville",
+          "Richmond",
+          "Ashland"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "comprehensive-eye-exams": "/images/service-comprehensive-eye-exams.webp",
+      "contact-lens-fitting": "/images/service-contact-lens-fitting.webp",
+      "dry-eye-treatment": "/images/service-dry-eye-treatment.webp",
+      "pediatric-eye-care": "/images/service-pediatric-eye-care.webp",
+      "emergency-eye-care": "/images/service-emergency-eye-care.webp"
+    },
+    "servicesResponsive": {
+      "comprehensive-eye-exams": {
+        "src": "/images/service-comprehensive-eye-exams.webp",
+        "srcset": "/images/service-comprehensive-eye-exams-400w.webp 400w, /images/service-comprehensive-eye-exams-800w.webp 800w, /images/service-comprehensive-eye-exams-1200w.webp 1200w, /images/service-comprehensive-eye-exams.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "contact-lens-fitting": {
+        "src": "/images/service-contact-lens-fitting.webp",
+        "srcset": "/images/service-contact-lens-fitting-400w.webp 400w, /images/service-contact-lens-fitting-800w.webp 800w, /images/service-contact-lens-fitting-1200w.webp 1200w, /images/service-contact-lens-fitting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "dry-eye-treatment": {
+        "src": "/images/service-dry-eye-treatment.webp",
+        "srcset": "/images/service-dry-eye-treatment-400w.webp 400w, /images/service-dry-eye-treatment-800w.webp 800w, /images/service-dry-eye-treatment-1200w.webp 1200w, /images/service-dry-eye-treatment.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pediatric-eye-care": {
+        "src": "/images/service-pediatric-eye-care.webp",
+        "srcset": "/images/service-pediatric-eye-care-400w.webp 400w, /images/service-pediatric-eye-care-800w.webp 800w, /images/service-pediatric-eye-care-1200w.webp 1200w, /images/service-pediatric-eye-care.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-eye-care": {
+        "src": "/images/service-emergency-eye-care.webp",
+        "srcset": "/images/service-emergency-eye-care-400w.webp 400w, /images/service-emergency-eye-care-800w.webp 800w, /images/service-emergency-eye-care-1200w.webp 1200w, /images/service-emergency-eye-care.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
